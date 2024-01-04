@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Bona Nova', serif;
+
+}
+body{
+    background-color: #fcde67;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.heading h1{
+    color: #030e12;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    padding-top: 2rem;
+    margin: 1rem;
+}
+.search-bar{
+    margin : 1rem 0;
+    width: 400px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+
+}
+.container{
+    width: 80%;
+    margin:25px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+    grid-gap: 2rem;
+}
+.card{
+    width: 180px;
+    border-radius: 1rem;
+    background-color: #030e12;
+    padding: 5px;
+}
+.card img{
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+.card h4{
+    color: white;
+    font-size: 16px;
+    padding:5px;
+}
+.indexContainer{
+   display: flex;
+   margin: 2.5rem 0;
+
+}
+.numBox{
+    width: 40px;
+    height:40px;
+    background-color: #030e12;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin: 0 5px 0 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.recipeimg{
+   width: 350px; 
+   border:3px solid rgba(0,0,0,0.5);
+}
+.alignimg{
+    display:flex;
+    justify-content: center;
+}
+.content .inner-content{
+    border-radius: 20px;
+    background-color: white;
+    color:black;
+    font-size: 1.5rem;
+    padding:2 rem;
+    text-align: center;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+    width:500px;
+    height: 200px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.innercontentalign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ingredients{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.ingredients h5{
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+}
+.instructions{
+    margin:0 50px;
+   
+}
+.instructionpara{
+  text-align: justify;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+.headinginfo{
+    background-color: rgb(50, 47, 47);
+    width:160px;
+    border-radius: 15px;
+    text-align: center;
+}
+.headingalign{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    height: 515px;
+    width: 100%;
+}
+.video{
+    width: 80%;
+    margin: 3rem auto;
+}
+.btnalign{
+   display: flex;
+   justify-content: center;
+   margin-bottom:50px;
+}
+.gobackbtn{
+    width: 130px;
+    padding:3px;
+    border:none;
+    outline: none;
+    background-color: rgb(50, 47, 47);
+    font-size: 20px;
+    font-weight: 600;
+}
+.gobackbtn:hover{
+    border-radius: 15px;
+}
